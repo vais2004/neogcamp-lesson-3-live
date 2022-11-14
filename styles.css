@@ -2,6 +2,7 @@
 
 :root {
 --primary-color: #7C3AED;
+--dark-gray: #94a3b8;
 }
 
 body{
@@ -58,7 +59,7 @@ padding: 0rem 1rem;
 .navigation .nav-brand{
 font-weight: bold;
 font-size: 1.1rem;
-border-bottom-left-radius: 10rem;
+border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-pills{
@@ -72,6 +73,44 @@ border-bottom-left-radius: 10rem;
 .navigation .link-active{
     font-weight: bold;
 }
+
+/**header**/
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+}
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+}
+ 
+.hero .hero-heading{
+    padding-top: 1rem ;
+    color: var(--dark-gray);  
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
