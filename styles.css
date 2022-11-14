@@ -3,6 +3,7 @@
 :root {
 --primary-color: #7C3AED;
 --dark-gray: #94a3b8;
+--off-white:#e2e8f0;
 }
 
 body{
@@ -96,9 +97,18 @@ border-bottom-left-radius: 1rem;
     color: var(--primary-color);
 }
 
+/**sections**/
 
+.section{
+    padding: 2rem;
+}
 
-
+.section h1 {
+    text-align: center;
+}  
+.ow{
+    background-color: var(--off-white);
+}
 
 
 
