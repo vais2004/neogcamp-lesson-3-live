@@ -2,8 +2,8 @@
 
 :root {
 --primary-color: rgb(247, 92, 143);
---dark-gray: #9eb5d6;
---off-white: #5879e;
+--dark-gray: rgb(158, 181, 214);
+--off-white: rgb(117, 135, 158);
 }
 
 body{
