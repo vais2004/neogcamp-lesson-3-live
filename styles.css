@@ -10,7 +10,8 @@ body{
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-
+    max-width: 85%;
+    width: 100%;
 }
 
 hr{
@@ -28,7 +29,8 @@ padding: 0rem 1rem;
 }
 
 .container-center{
-    max-width: 600px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
@@ -42,13 +44,19 @@ padding: 0rem 1rem;
 }
 
 .link-primary {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
+    margin: 1rem auto;
     color:white;
 }
 .link-secondary {
+    max-width: 140px;
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
 }
 /** look into BEM naming convention for CSS**/
@@ -56,6 +64,7 @@ padding: 0rem 1rem;
 /** lists**/
 .list-non-bullet{
     list-style: none;
+    padding-inline-start: 0px;
 }
 .list-item-inline {
     display: inline;
@@ -67,6 +76,7 @@ padding: 0rem 1rem;
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand{
@@ -114,6 +124,9 @@ border-bottom-left-radius: 1rem;
 
 .section{
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
 
 .section h1 {
