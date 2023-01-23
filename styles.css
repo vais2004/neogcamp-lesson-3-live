@@ -2,7 +2,7 @@
 
 :root {
 --primary-color: rgba(36, 81, 177, 0.51);
---dark-gray: rgb(107, 114, 128);
+--dark-gray: rgba(116, 116, 116, 0.224);
 --off-white: rgb(107, 114, 128);
 }
 
